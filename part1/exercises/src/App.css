@@ -41,3 +41,18 @@
   display:flex;
 justify-content:space-between;
 }
+.HobbyLinks {
+  position: absolute;
+  top: 0;
+  right: 0;
+ text-align: right;
+}
+
+.BookList {
+  border: hotpink 2px solid;
+  width: fit-content;
+  padding: 0;
+  margin: auto;
+ 
+}
+

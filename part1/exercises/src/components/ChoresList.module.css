@@ -1,7 +1,12 @@
 .choresText {
-   color: black;
+   color: rgb(15, 97, 152);
+   font-size: 1.5vw;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
+   color: rgb(104, 202, 238);
+   text-decoration: underline;
+   font-style:italic;
+   text-align: left;
 }

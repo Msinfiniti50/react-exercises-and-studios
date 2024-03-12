@@ -1,15 +1,15 @@
 export default function BookList() {
-   let pageTitle = "shrug";
-   let book1 = "google.com";
-   let book2 = "";
-   let book3 = "";
+   let pageTitle = "Good Reads";
+   let book1 = "https://upload.wikimedia.org/wikipedia/en/5/51/Coldestwinter.jpg";
+   let book2 = "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Midnight_Gangster.jpg/220px-Midnight_Gangster.jpg";
+   let book3 = "https://upload.wikimedia.org/wikipedia/en/8/8a/ADayLateAndADollarShort.jpg";
 
    return (
-      <div>
+      <div className="BookList">
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="Nothing here!" />
-         <img src={book2} alt="Nothing here!" />
-         <img src={book3} alt="Nothing here!" />
+         <img className="BookList" src={book1} alt="The Coldest Winter Ever!" height="275px" width="250px"/>
+         <img className="BookList" src={book2} alt="Midnight: A Gansters Tale!" height="275px" width="250"/>
+         <img className="BookList" src={book3} alt="A Day Late And A Dollar Short!" height="275px"/>
       </div>      
    );
 }
