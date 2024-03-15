@@ -1,10 +1,12 @@
 
 import './App.css'
-import RecipeDescription from './components/Description'
-import RecipeIngredients from './components/Ingredients'
-import RecipePhoto from './components/Photo'
+import RecipeDescription from './components/Description.jsx'
+import RecipeIngredients from './components/Ingredients.jsx'
+import RecipePhoto from './components/Photo.jsx'
+
 
 function App() {
+  
 
   return (
       <div className="App">
@@ -15,7 +17,8 @@ function App() {
           <div>
         <RecipeDescription />
         <RecipeIngredients />
-       </div>
+        
+        </div>
       </div>
       </div>
   )
