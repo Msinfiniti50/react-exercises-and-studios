@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://s23209.pcdn.co/wp-content/uploads/2018/06/Damn-Delicious_Dedication_1-copy-1-500x750.jpg";
+   let authorPhoto = "https://s23209.pcdn.co/wp-content/uploads/2018/06/Damn-Delicious_Dedication_1-copy-1-500x750.jpg"";
+   let authorName = "Chungah Rhee";
 
    return (
       <div>
@@ -63,3 +63,4 @@ export default function RecipeDisplay () {
       </div>
    );
 }
+

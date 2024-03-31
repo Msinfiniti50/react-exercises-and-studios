@@ -1,7 +1,7 @@
 import recipedata from "./recipe.json";
 
-function RecipeName() {
-  return recipedata;
+function RecipeName({name}) {
+  return <h1>{name}</h1>;
 }
 
 export default RecipeName;
